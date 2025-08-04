@@ -1,4 +1,4 @@
-Task 2: Home Automation System – Using Wokwi
+#Home Automation System – Using Wokwi
 
 COMPANY: CODTECH IT SOLUTION
 
@@ -12,7 +12,7 @@ DURATION:4 WEEKS
 
 MENTOR:Neela Santhosh
 
-DESCRIPTION:
+#DESCRIPTION:
 
 🎯 Objective:
 
@@ -83,3 +83,8 @@ Wiring Steps:
 
 
 4. Connect LED2 cathode → 220Ω Resistor → GND# Home-Automation-System
+
+
+<img width="1914" height="867" alt="Image" src="https://github.com/user-attachments/assets/49965975-2e23-40b2-9705-e5bd3eadb714" />
+<img width="1910" height="926" alt="Image" src="https://github.com/user-attachments/assets/512447bf-d230-46fc-ba3d-425e6b20f8dd" />
+<img width="1905" height="927" alt="Image" src="https://github.com/user-attachments/assets/cf8ff1fc-658c-41ac-9658-e3f2f1b9bd32" />
