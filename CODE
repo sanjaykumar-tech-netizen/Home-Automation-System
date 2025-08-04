@@ -1,0 +1,34 @@
+
+#define LIGHT 13
+#define FAN 12
+
+void setup() {
+  pinMode(LIGHT, OUTPUT);
+  pinMode(FAN, OUTPUT);
+  Serial.begin(9600);
+  Serial.println("Send '1' for Light ON, '0' for Light OFF");
+  Serial.println("Send '2' for Fan ON, '3' for Fan OFF");
+}
+
+void loop() {
+  if (Serial.available()) {
+    char cmd = Serial.read();
+    
+    if (cmd == 'A') {
+      digitalWrite(LIGHT, HIGH);
+      Serial.println("Light ON");
+    }
+    else if (cmd == 'a') {
+      digitalWrite(LIGHT, LOW);
+      Serial.println("Light OFF");
+    }
+    else if (cmd == 'B') {
+      digitalWrite(FAN, HIGH);
+      Serial.println("Fan ON");
+    }
+    else if (cmd == 'b') {
+      digitalWrite(FAN, LOW);
+      Serial.println("Fan OFF");
+    }
+  }
+}
